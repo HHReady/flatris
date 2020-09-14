@@ -194,3 +194,5 @@ CHORES
 - [x] Upgrade to Babel7
 - [ ] Extract ReduxActions Cosmos proxy
 
+
+test message
