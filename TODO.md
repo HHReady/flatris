@@ -10,11 +10,11 @@
 - [x] Add missing screens for multiplayer flows
 - [x] PIVOT: Turn collaborative Flatris (2-8 players) into competitive 1vs1 Flatris
   - [x] Redesign state and actions
-    - [x] Make MOVE, ROTATE, ENABLE_ACCELERATION, DISABLE_ACCELERATION userId based
-    - [x] Cancel ADVANCE loop on unmount
-    - [x] Disable acceleration on line drop
-    - [x] ADVANCE action for current user
-    - [x] Remove START/STOP actions
+- [x] Make MOVE, ROTATE, ENABLE_ACCELERATION, DISABLE_ACCELERATION userId based
+- [x] Cancel ADVANCE loop on unmount
+- [x] Disable acceleration on line drop
+- [x] ADVANCE action for current user
+- [x] Remove START/STOP actions
   - [x] Clear onboarding screens (postpone UI this time until game mechanics are confirmed)
   - [x] Update fixtures and tests
   - [x] Add 2nd player
@@ -31,11 +31,11 @@
   - [x] getNextCellId(gameState) abstraction
 - [x] Fix concomitant line clearing between players
   - [x] Fix multiplayer test case: Clearing lines that aren't bottom ones
-- [x] Expand memory db to multi games
-- [x] Green/red wall flash when clearing lines (own vs enemy)
-- [x] Earthquake effect when clearing lines
-- [x] Make enemy grid visible on Firefox
-- [x] Add hidden keyboard shortcut for stopping game
+	- [x] Expand memory db to multi games
+	- [x] Green/red wall flash when clearing lines (own vs enemy)
+	- [x] Earthquake effect when clearing lines
+	- [x] Make enemy grid visible on Firefox
+	- [x] Add hidden keyboard shortcut for stopping game
 - [x] Clean up server scripts (Keep server with client together in prod, separate in dev)
 - [x] [WORKING PROTOTYPE]
 - [x] Handle wrong game ID with 404
@@ -114,14 +114,31 @@
 - [x] Index page
   - [x] Create reduxState.games
   - [x] List all games
-  - [x] Beautiful grid
   - [x] Animating games
   - [x] Strip game effects when going back to index page
-  - [x] Push new games to dashboard
-  - [x] Remove inactive games
-    - [x] Mark inactive after 30 seconds
+  
     - [x] Remove expired after 15 minutes
-    - [x] Redirect to dashboard from expired game page
+tyle
+ Style NEW GAME but  - [x] Style
+ Add Flatris header    - [x] Style NEW GAME button
+ Show blank state w    - [x] Add Flatris header
+ Fade in fade out t    - [x] Show blank state when no active games exist
+ Highlight already     - [x] Fade in fade out transition game previews
+: Broadcast new gam    - [x] Highlight already joined games
+- [x] BUG: Broadcast new game to `global` (without requiring an action)
+-
+
+    [x] Redirect to dashboard from expired game page
+
+    [x] Redirect to dashboard from expired game page
+
+tyle
+ Style NEW GAME but
+ Add Flatris header    [x] Redirect to dashboard from expired game page
+ Show blank state w    [x] Redirect to dashboard from expired game page
+ Fade in fade out t
+ Highlight already 
+: Broadcast new gam    [x] Redirect to dashboard from expired game page
   - [x] Style
     - [x] Style NEW GAME button
     - [x] Add Flatris header
